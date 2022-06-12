@@ -26,7 +26,15 @@ public class BusinessAccount extends Account {
     if (amount <= loanLimit) {
       balance += amount - 10.0;
     }
+  }
 
+  // suponha que, na classe BusinessAccount, a regra para saque seja realizar o
+  // saque normalmente da superclasse, e descontar mais 2.0.
+
+  @Override
+  public void withdraw(double amount) {
+    super.withdraw(amount);
+    balance -= 2.0;
   }
 
 }
