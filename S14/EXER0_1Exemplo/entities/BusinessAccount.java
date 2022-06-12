@@ -9,8 +9,8 @@ public class BusinessAccount extends Account {
   }
 
   public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
-    super(number, holder, balance); // assim se chama o construtor da super classe, não se fazendo necessário
-                                    // repetir
+    super(number, holder, balance);
+
     this.loanLimit = loanLimit;
   }
 
@@ -24,8 +24,7 @@ public class BusinessAccount extends Account {
 
   public void loan(double amount) {
     if (amount <= loanLimit) {
-      balance += amount - 10.0; // só foi possivel acessar o atributo "balance" devido a implementação do metodo
-                                // "protected" na classe "Account" | modificador de acesso protected*
+      balance += amount - 10.0;
     }
 
   }
