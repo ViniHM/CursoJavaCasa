@@ -1,8 +1,8 @@
-package S14.EXER0_1Exemplo.application;
+package EXER0_1Exemplo.application;
 
-import S14.EXER0_1Exemplo.entities.Account;
-import S14.EXER0_1Exemplo.entities.BusinessAccount;
-import S14.EXER0_1Exemplo.entities.SavingsAccount;
+import EXER0_1Exemplo.entities.Account;
+import EXER0_1Exemplo.entities.BusinessAccount;
+import EXER0_1Exemplo.entities.SavingsAccount;
 
 public class Program {
   public static void main(String[] args) {

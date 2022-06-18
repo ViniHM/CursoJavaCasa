@@ -1,4 +1,4 @@
-package S14.EXER0_1Exemplo.entities;
+package EXER0_1Exemplo.entities;
 
 public class Account {
 
